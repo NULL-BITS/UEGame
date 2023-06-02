@@ -9334,3 +9334,317 @@ Script Stack (0 frames) :
 [2023.06.02-17.38.01:393][832]SourceControl: Commited [1.1.1.test a494bfe] init.
 [2023.06.02-17.38.01:487][836]SourceControl: Error: fatal: invalid object name 'C'.
 [2023.06.02-17.38.01:487][836]LogSourceControl: Warning: UpdateHistory Failed.
+[2023.06.02-17.44.02:363][869]LogSlate: Window 'Project Settings' being destroyed
+[2023.06.02-17.44.02:366][869]LogSlate: Window 'Project Settings' being destroyed
+[2023.06.02-17.44.14:218][566]LogSlate: Window 'Resource Usage' being destroyed
+[2023.06.02-17.44.14:222][566]LogSlate: Window 'Resource Usage' being destroyed
+[2023.06.02-17.44.30:867][545]Cmd: STAT FPS
+[2023.06.02-17.45.17:802][555]LogViewport: Scene viewport resized to 1014x360, mode Windowed.
+[2023.06.02-17.45.18:039][555]LogViewport: Scene viewport resized to 1014x378, mode Windowed.
+[2023.06.02-17.45.18:142][555]LogViewport: Scene viewport resized to 1014x379, mode Windowed.
+[2023.06.02-17.45.20:596][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.06.02-17.45.33:094][426]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.02-17.45.33:100][426]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.06.02-17.45.33:101][426]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.02-17.45.33:101][426]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.02-17.45.33:101][426]LogWorldPartition: Display: GetPartitionedActors took 8 us (total: 6 ms)
+[2023.06.02-17.45.33:101][426]LogWorldPartition: Display: GenerateStreaming took 158 us (total: 8 ms)
+[2023.06.02-17.45.33:101][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-17.45.33:101][426]PIE: New page: PIE session: FirstPersonMap (02.06.2023, 21:45:33)
+[2023.06.02-17.45.33:101][426]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.06.02-17.45.33:123][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021479s)
+[2023.06.02-17.45.33:123][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.021513s)
+[2023.06.02-17.45.33:123][426]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.02-17.45.33:124][426]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-17.45.33:124][426]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.06.02-17.45.33:124][426]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.06.02-17.45.33:124][426]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.02-17.45.33:124][426]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.02-17.45.33:128][426]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.06.02-17.45.33:128][426]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 618 ms)
+[2023.06.02-17.45.33:128][426]LogPlayLevel: PIE: World Init took: (0.005511s)
+[2023.06.02-17.45.33:148][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.06.02-17.45.33:150][426]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.06.02-17.45.33:150][426]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-17.45.33:150][426]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-17.45.33:150][426]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-17.45.33:150][426]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-17.45.33:150][426]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.02-17.45.33:150][426]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-17.45.33:150][426]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.02-17.45.33:150][426]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-17.45.33:151][426]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.02-17.45.33:151][426]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.02-17.45.33:151][426]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-17.45.33:153][426]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-17.45.33:165][426]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- High Definition Audio Device)
+[2023.06.02-17.45.33:166][426]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-17.45.33:166][426]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-17.45.33:166][426]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-17.45.33:166][426]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.06.02-17.45.33:166][426]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.06.02-17.45.33:168][426]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.06.02-17.45.33:168][426]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.06.02-17.45.33:168][426]LogInit: FAudioDevice initialized with ID 15.
+[2023.06.02-17.45.33:168][426]LogAudio: Display: Audio Device (ID: 15) registered with world 'FirstPersonMap'.
+[2023.06.02-17.45.33:168][426]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.06.02-17.45.33:170][426]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.06.02-17.45.33:177][426]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.06.02-19.45.33
+[2023.06.02-17.45.33:177][426]LogWorld: Bringing up level for play took: 0.006289
+[2023.06.02-17.45.33:179][426]LogOnline: OSS: Created online subsystem instance for: :Context_75
+[2023.06.02-17.45.33:182][426]PIE: Server logged in
+[2023.06.02-17.45.33:182][426]PIE: Play in editor total start time 0,083 seconds.
+[2023.06.02-17.45.33:206][426]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.33:206][426]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.33:207][426]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.33:218][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.33:218][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.33:219][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.33:219][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.39:559][791]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.39:559][791]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.39:560][791]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.40:576][852]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.41:591][913]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.42:592][973]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.42:593][973]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.42:593][973]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.43:609][ 34]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.43:609][ 34]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.44:626][ 95]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.44:626][ 95]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.45:642][156]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.45:643][156]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.47:643][276]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.47:644][276]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.47:644][276]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.48:659][337]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.48:660][337]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.48:661][337]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.49:675][398]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.49:676][398]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.49:677][398]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.50:677][458]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.50:677][458]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.51:407][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-17.45.51:407][500]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.06.02-17.45.51:407][500]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-17.45.51:410][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-17.45.51:410][500]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.06.02-17.45.51:413][500]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-17.45.51:417][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-17.45.51:439][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-17.45.51:440][500]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.06.02-17.45.51:440][500]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.06.02-17.45.51:442][500]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.06.02-17.45.51:449][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.06.02-17.45.51:469][500]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.51:481][501]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2023.06.02-17.45.51:492][501]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.45.56:238][764]LogViewport: Scene viewport resized to 753x555, mode Windowed.
+[2023.06.02-17.45.57:795][770]LogViewport: Scene viewport resized to 1014x379, mode Windowed.
+[2023.06.02-17.45.58:218][770]LogViewport: Scene viewport resized to 1526x559, mode Windowed.
+[2023.06.02-17.46.35:070][919]LogMaterial: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\Environment_Set\Environment\Foliage\Materials\M_Roots.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.06.02-17.46.35:081][919]LogBulkDataRegistry: Warning: /Game/Environment_Set/Environment/Foliage/Models/Fir_08_Dead_NoBillboard.Fir_08_Dead_NoBillboard failed to register BulkData 33642F15412BD0F9BEB37B858E7D29C3 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Game/Addons/Environment_Set/Environment/Foliage/Models/Fir_08_Dead_Forest.
+            Payload: 8d03da781f91ebd4509ff28b5b50b3bde7061c2e
+    ExistingPayload: 8d03da781f91ebd4509ff28b5b50b3bde7061c2e
+[2023.06.02-17.46.35:450][919]LogMaterial: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\Environment_Set\Environment\Landscape\Materials\M_Ground_1.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.06.02-17.46.35:931][919]LogMaterial: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Bullet\Bullet\M_Bullet.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.06.02-17.46.35:973][919]LogLinker: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Scope.uasset: Failed to load '/Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point': Can't find file.
+[2023.06.02-17.46.35:973][919]LogCoreRedirects: Error: AddRedirect(AddKnownMissing) failed to add redirect from /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point to /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point with invalid characters!
+[2023.06.02-17.46.35:973][919]LogLinker: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Scope.uasset: VerifyImport: Failed to load package for import object 'Package /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point'
+[2023.06.02-17.46.35:974][919]LogLinker: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Scope.uasset: Failed to load '/Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point': Can't find file.
+[2023.06.02-17.46.35:974][919]LogCoreRedirects: Error: AddRedirect(AddKnownMissing) failed to add redirect from /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point to /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point with invalid characters!
+[2023.06.02-17.46.35:974][919]LogLinker: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Scope.uasset: VerifyImport: Failed to load package for import object 'Package /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point'
+[2023.06.02-17.46.35:974][919]LogLinker: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Scope.uasset: Failed to load '/Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point': Can't find file.
+[2023.06.02-17.46.35:975][919]LogCoreRedirects: Error: AddRedirect(AddKnownMissing) failed to add redirect from /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point to /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point with invalid characters!
+[2023.06.02-17.46.35:975][919]LogLinker: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Scope.uasset: VerifyImport: Failed to load package for import object 'Package /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point'
+[2023.06.02-17.46.35:976][919]LogLinker: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Scope.uasset: Failed to load '/Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point': Can't find file.
+[2023.06.02-17.46.35:976][919]LogCoreRedirects: Error: AddRedirect(AddKnownMissing) failed to add redirect from /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point to /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point with invalid characters!
+[2023.06.02-17.46.35:976][919]LogLinker: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Scope.uasset: VerifyImport: Failed to load package for import object 'Package /Game/FPSAssets/Gun/Materials/Shared_Mats_(Used_Across_All_Skins)/M_Aim_Point'
+[2023.06.02-17.46.35:979][919]LogMaterial: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Materials\Shared_Mats_(Used_Across_All_Skins)\M_Aim_Point.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.06.02-17.46.35:986][919]LogMaterial: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Materials\Shared_Mats_(Used_Across_All_Skins)\M_Barrel.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.06.02-17.46.35:991][919]LogMaterial: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Materials\Skin_Black\M_Addons_Black.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.06.02-17.46.35:995][919]LogMaterial: Warning: [AssetLog] C:\Users\Tom\Documents\GitHub\UEGame\Content\FPSASssets\FPSAssets\FPSAssets\VirtusFPS\Content\FPSAssets\Gun\Materials\Skin_Black\M_Body_Black.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.06.02-17.46.36:397][919]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Collapse02.Collapse02: 262144
+[2023.06.02-17.46.36:401][919]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.02-17.46.36:431][919]LogUObjectGlobals: Warning: Guid referenced by BillboardComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SkyLight_1.Sprite is already used by BillboardComponent /Game/Addons/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SkyLight_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.06.02-17.46.36:431][919]LogUObjectGlobals: Warning: Guid referenced by SkyLightComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SkyLight_1.SkyLightComponent0 is already used by SkyLightComponent /Game/Addons/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SkyLight_1.SkyLightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.06.02-17.46.36:483][919]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.02-17.46.36:486][919]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Starter_Wind06.Starter_Wind06: 262144
+[2023.06.02-17.46.36:910][919]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.02-17.46.37:086][919]LogTexture: Display: Building textures: /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight (RGBA16F, 7372x3686 x1x1x1) (Required Memory Estimate: 932.979996 MB), EncodeSpeed: Fast
+[2023.06.02-17.46.45:897][920]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair needed to have new flag set bUsedWithNanite !
+[2023.06.02-17.46.46:146][920]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound needed to have new flag set bUsedWithNanite !
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: ================================================
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Total job queries 3.534, among them cache hits 152 (4.30%)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Tracking 3.382 distinct input hashes that result in 2.400 distinct outputs (70.96%)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: RAM used: 91,01 MiB of 819,20 MiB budget. Usage: 11.11%
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Shaders Compiled: 3.382
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Jobs assigned 3.382, completed 3.382 (100.00%)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Average time worker was idle: 110.74 s
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Time job spent in pending queue: average 200.87 s, longest 469.27 s
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Job execution time: average 11.12 s, max 22.29 s
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Job life time (pending + execution): average 211.98 s, max 470.75
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 503.34 s
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Jobs were issued in 529 batches (only local compilation was used), average 6.39 jobs/batch
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Average processing rate: 6.72 jobs/sec
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Total thread time: 3.893,745 s
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Total thread preprocess time: 73,946 s
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Percentage time preprocessing: 1.90%
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Effective parallelization: 7.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled  129 times, average 1.53 sec, max 3.54 sec, min 0.61 sec)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled  129 times, average 1.53 sec, max 3.29 sec, min 0.62 sec)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled  129 times, average 1.51 sec, max 3.16 sec, min 0.62 sec)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled  129 times, average 1.50 sec, max 3.21 sec, min 0.53 sec)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled  129 times, average 1.49 sec, max 3.40 sec, min 0.68 sec)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.64% of total time (compiled  171 times, average 1.28 sec, max 2.36 sec, min 0.54 sec)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.10% of total time (compiled  142 times, average 1.40 sec, max 2.71 sec, min 0.64 sec)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.08% of total time (compiled  129 times, average 1.53 sec, max 3.54 sec, min 0.61 sec)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight - 5.07% of total time (compiled  129 times, average 1.53 sec, max 3.29 sec, min 0.62 sec)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.05% of total time (compiled  142 times, average 1.39 sec, max 2.79 sec, min 0.61 sec)
+[2023.06.02-17.46.46:307][921]LogShaderCompilers: Display: ================================================
+[2023.06.02-17.46.52:500][ 32]LogSlate: Window 'Failed Renames' being destroyed
+[2023.06.02-17.46.53:055][ 34]LogSlate: Window 'Failed Renames' being destroyed
+[2023.06.02-17.46.54:650][ 87]LogSlate: Window 'Failed Renames' being destroyed
+[2023.06.02-17.46.56:589][144]LogSlate: Window 'Failed Renames' being destroyed
+[2023.06.02-17.46.57:546][146]LogSlate: Window 'Failed Renames' being destroyed
+[2023.06.02-17.47.01:406][236]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.02-17.47.01:410][236]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.06.02-17.47.01:412][236]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.02-17.47.01:412][236]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.02-17.47.01:412][236]LogWorldPartition: Display: GetPartitionedActors took 21 us (total: 6 ms)
+[2023.06.02-17.47.01:412][236]LogWorldPartition: Display: GenerateStreaming took 289 us (total: 9 ms)
+[2023.06.02-17.47.01:412][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-17.47.01:412][236]PIE: New page: PIE session: FirstPersonMap (02.06.2023, 21:47:01)
+[2023.06.02-17.47.01:412][236]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.06.02-17.47.01:438][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024671s)
+[2023.06.02-17.47.01:438][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.024704s)
+[2023.06.02-17.47.01:438][236]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.02-17.47.01:438][236]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-17.47.01:438][236]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.06.02-17.47.01:439][236]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.06.02-17.47.01:439][236]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.02-17.47.01:439][236]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.02-17.47.01:443][236]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.06.02-17.47.01:443][236]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 623 ms)
+[2023.06.02-17.47.01:443][236]LogPlayLevel: PIE: World Init took: (0.005569s)
+[2023.06.02-17.47.01:469][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.06.02-17.47.01:477][236]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.06.02-17.47.01:477][236]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-17.47.01:477][236]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-17.47.01:477][236]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-17.47.01:477][236]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-17.47.01:477][236]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.02-17.47.01:477][236]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-17.47.01:477][236]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.02-17.47.01:477][236]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-17.47.01:477][236]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.02-17.47.01:477][236]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.02-17.47.01:477][236]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-17.47.01:479][236]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-17.47.01:491][236]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- High Definition Audio Device)
+[2023.06.02-17.47.01:491][236]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-17.47.01:491][236]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-17.47.01:491][236]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-17.47.01:491][236]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.06.02-17.47.01:491][236]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.06.02-17.47.01:493][236]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.06.02-17.47.01:493][236]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.06.02-17.47.01:493][236]LogInit: FAudioDevice initialized with ID 16.
+[2023.06.02-17.47.01:494][236]LogAudio: Display: Audio Device (ID: 16) registered with world 'FirstPersonMap'.
+[2023.06.02-17.47.01:494][236]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.06.02-17.47.01:496][236]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.06.02-17.47.01:501][236]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.06.02-19.47.01
+[2023.06.02-17.47.01:502][236]LogWorld: Bringing up level for play took: 0.006421
+[2023.06.02-17.47.01:504][236]LogOnline: OSS: Created online subsystem instance for: :Context_76
+[2023.06.02-17.47.01:508][236]PIE: Server logged in
+[2023.06.02-17.47.01:508][236]PIE: Play in editor total start time 0,098 seconds.
+[2023.06.02-17.47.01:530][236]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:530][236]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:531][236]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:531][236]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:531][236]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:532][236]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:534][236]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:550][237]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:550][237]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:551][237]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:551][237]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:551][237]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:552][237]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:552][237]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.01:554][237]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.10:282][728]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.10:283][728]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.10:283][728]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.11:282][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.11:283][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.11:284][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.11:284][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.12:308][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-17.47.12:308][846]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.06.02-17.47.12:308][846]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-17.47.12:311][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-17.47.12:311][846]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.06.02-17.47.12:313][846]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-17.47.12:320][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-17.47.12:343][846]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.02-17.47.12:344][846]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.06.02-17.47.12:345][846]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.06.02-17.47.12:347][846]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.06.02-17.47.12:350][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-17.47.12:353][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.06.02-17.47.12:377][846]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.12:390][847]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2023.06.02-17.47.12:406][847]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.02-17.47.14:530][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.06.02-17.47.15:567][971]LogSlate: Window 'Save Content' being destroyed
+[2023.06.02-17.47.15:686][971]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-17.47.15:817][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/Materials/M_Chair" FILE="../../../../../../Users/Tom/Documents/GitHub/UEGame/Content/StarterContent/Props/Materials/M_Chair.uasset" SILENT=true
+[2023.06.02-17.47.15:820][971]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Materials/M_Chair
+[2023.06.02-17.47.15:821][971]LogSavePackage: Moving '../../../../../../Users/Tom/Documents/GitHub/UEGame/Saved/M_Chair2D67B2AD4D6DFB5CA1B1ED98393F951B.tmp' to '../../../../../../Users/Tom/Documents/GitHub/UEGame/Content/StarterContent/Props/Materials/M_Chair.uasset'
+[2023.06.02-17.47.15:848][971]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Materials/M_TableRound
+[2023.06.02-17.47.15:849][971]LogSavePackage: Moving '../../../../../../Users/Tom/Documents/GitHub/UEGame/Saved/M_TableRoundA3CE2B4047C9742C088E908A19DDFAFA.tmp' to '../../../../../../Users/Tom/Documents/GitHub/UEGame/Content/StarterContent/Props/Materials/M_TableRound.uasset'
+[2023.06.02-17.47.15:856][971]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 23.6 sec)
+[2023.06.02-17.47.15:864][971]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.02-17.47.15:864][971]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair
+[2023.06.02-17.47.15:864][971]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound
