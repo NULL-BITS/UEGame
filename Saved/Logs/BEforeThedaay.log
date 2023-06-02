@@ -7159,3 +7159,4 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2023.06.02-19.06.24:072][902]SourceControl: [1.1.1 33a2f0e] deathscreen, fixes and better health
 [2023.06.02-19.06.24:072][902]SourceControl:  9 files changed, 0 insertions(+), 0 deletions(-)
 [2023.06.02-19.06.24:104][902]SourceControl: Commited [1.1.1 33a2f0e] deathscreen, fixes and better health.
+[2023.06.02-19.12.40:418][293]LogViewport: Scene viewport resized to 1014x379, mode Windowed.
